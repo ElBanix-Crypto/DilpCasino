@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 2px solid white;
+  text-decoration: none;
+}
+body {
+  background-color: #2c1a3d;
+  font-family: "Rubik";
+  max-width: 1366px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 18px 0px;
+  gap: 40px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nav-menu .nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 29px 8px;
+}
+.nav-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nav-btn .btn:first-child {
+  border: 2px solid #a993bd;
+  color: #ffffff;
+  font-weight: 600;
+}
+.nav-btn .btn:last-child {
+  background: linear-gradient(90deg, #dbb6ff 0%, #dbb6ff 100%);
+  color: #ffffff;
+}
+.btn {
+  color: #2c1a3d;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 24px;
+  padding: 10px 24px;
+  font-size: 14px;
+}
+
+/* hero section */
+.hero {
+  width: 100%;
+  height: 392.25px;
+  background-image: url("./assets/header-banner.png");
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 600;
+  gap: 10px;
+}
+.hero-content h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant-caps: petite-caps;
+}
+.hero-content h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 600;
+  font-variant-caps: petite-caps;
+}
+.hero-content h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  font-variant-caps: petite-caps;
+}
+.welcome-package {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 100px;
+  align-items: center;
+}
+.welcome-package-btn {
+  background: linear-gradient(#fe8607, #feb83f);
+  color: #fff;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 100px;
+  font-variant-caps: petite-caps;
+  border-radius: 4px;
+  border: 1px solid #000000;
+}
+.sponsors {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top:auto;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  align-items: center;
+  gap: 10px;
+}
