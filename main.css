@@ -69,55 +69,112 @@ body {
   text-align: center;
   font-size: 200px;
   font-weight: 600;
-  gap: 10px;
-  padding: 20px;
+  gap: 30px;
 }
 .hero-content h2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
   font-variant-caps: petite-caps;
+  line-height: 35%;
+  letter-spacing: 0px;
 }
 .hero-content h1 {
   color: #fff;
-  font-size: 100px;
-  font-weight: 600;
+  font-size: 112px;
+  font-weight: 700;
   font-variant-caps: petite-caps;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .hero-content h3 {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
   font-variant-caps: petite-caps;
+  letter-spacing: 1px;
+  line-height: 100%;
 }
 .welcome-package {
+  width: 313px;
+  height: 303px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px 100px;
+  gap: 10px;
   align-items: center;
 }
 .welcome-package-btn {
+  width: 312px;
+  height: 68px;
   background: linear-gradient(#fe8607, #feb83f);
   color: #fff;
   font-family: "Rubik";
-  font-weight: 600;
-  font-size: 18px;
-  padding: 10px 100px;
-  font-variant-caps: petite-caps;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 20px 80px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   border-radius: 4px;
   border: 1px solid #000000;
 }
 .sponsors {
-  margin-top: 2rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .rating {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
+  padding: 40px 74px;
+  gap: 30px;
+  background: #10001f;
+}
+.popular-games {
+  padding: 80px 40px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.popular-games .header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  line-height: 35px;
+  letter-spacing: 0%;
+}
+.popular-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.view-more {
+  display: flex;
+  justify-content: center;
   gap: 10px;
+}
+.view-more .btn {
+    background-color: #51316e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
